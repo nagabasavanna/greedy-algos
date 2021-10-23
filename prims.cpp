@@ -6,7 +6,7 @@ using namespace std;
 #define V 4
 #define IN INT_MAX
 
-                //like this\/  ASK ALAAAAAAAAAAAAAAAPSSSSSSSSSS
+   //this is using adjacency matrix
 void printGraph(int graph[V][V],vector<int> &parent)
 {
     cout<<"edge\t cost"<<endl;
