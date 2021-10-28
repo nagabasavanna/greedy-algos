@@ -2,7 +2,9 @@
 #include<vector>
 #include<algorithm>
 using namespace std;
-void floyds(int graph[4][4],int v)//doubt about this line alaaps
+// Floyd–Warshall algorithm is an algorithm for finding shortest paths in a directed weighted graph with positive or negative edge weights. 
+
+void floyds(int graph[4][4],int v)//2d array dimension should be specified
 {
    vector<vector<int>> dist(v,vector<int>(v, 0));
    for(int i=0;i<v;++i)
