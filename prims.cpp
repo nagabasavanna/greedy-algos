@@ -2,9 +2,10 @@
 using namespace std;
 #include<vector>
 #include<algorithm>
-//how to pass graph in arguements without defining its vertex
 #define V 4
 #define IN INT_MAX
+
+//Prim's algorithm is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph
 
    //this is using adjacency matrix
 void printGraph(int graph[V][V],vector<int> &parent)
